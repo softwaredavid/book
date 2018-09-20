@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
-* [简历](jian-li.md)
 * [1.简介部分](1jian-jie-bu-fen.md)
   * [1.1](1jian-jie-bu-fen/11.md)
 * [1.1 简介](11-jian-jie.md)
