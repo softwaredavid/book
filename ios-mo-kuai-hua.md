@@ -1,8 +1,8 @@
 背景：在公司里边，随着公司业务的增长，一个项目的功能也会随着递增式的增长，代码也会越来越多。如果不加以拆分，势必会造成维护困难，一个bug会随之引发一系列血案.....。还有，也许会有一天，老板会突发奇想 要把项目中的某部分功能单独抽出来，做成一个单独的app，此时copy一份？此时大量的重复代码 维护成本倍增。
 
-##### Xcode中的**Workspace**   
+##### Xcode中的**Workspace**
 
-  Workspace是一种xcode文件，用于分组projects和其他文件，便于我们使用它们，一个workspace可以包含多个project和其他你想要引入的文件，除了组织各种project外，workspace还可以管理各个target之间的依赖关系。Xcode中创建一个Workspace：
+Workspace是一种xcode文件，用于分组projects和其他文件，便于我们使用它们，一个workspace可以包含多个project和其他你想要引入的文件，除了组织各种project外，workspace还可以管理各个target之间的依赖关系。Xcode中创建一个Workspace：
 
 第一：File-&gt;New-&gt;Workspace
 
@@ -16,11 +16,5 @@
 
 ![](/assets/屏幕快照 2018-09-20 下午2.47.41.png)
 
-
-
-
-
-
-
-
+ 此时我们便可以将代码中的各个模块进行抽取分离，比如基础模块，登录模块，业务模块等等，几个项目中复用度很高的代码我们便可以单独抽取，如果某个模块出问题了单独修改某个模块，不用再重复造轮子
 
