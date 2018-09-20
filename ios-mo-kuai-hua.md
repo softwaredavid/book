@@ -6,7 +6,7 @@ Workspace是一种xcode文件，用于分组projects和其他文件，便于我�
 
 第一：File-&gt;New-&gt;Workspace
 
-![](/assets/Snip20180920_6.png)
+![](/assets/Snip20180920_7.png)![](/assets/Snip20180920_6.png)
 
 第二：给该workspace起一个名字
 
@@ -16,11 +16,21 @@ Workspace是一种xcode文件，用于分组projects和其他文件，便于我�
 
 ![](/assets/屏幕快照 2018-09-20 下午2.47.41.png)
 
-
-
 创建完成后我们便可以将项目中各个业务模块相互分离，如：分成一个Main, Base,Login.\(根据自己项目的实际情况进行拆分\)
 
-此时我们分别在workspzce中创建对应的模块
+此时我们分别在workspzce中创建对应的模块（在此我的Base.Login,Test都是Framework）
+
+![](/assets/屏幕快照 2018-09-20 下午3.33.56.png)
+
+创建完成后点击以.xcworkspace的文件打开工程 然后将刚才创建的几个项目依次添加到工程中去
+
+![](/assets/Snip20180920_7.png)         ![](/assets/Snip20180920_8.png)
+
+
+
+添加完成后：
+
+![](/assets/Snip20180920_13.png)
 
 
 
